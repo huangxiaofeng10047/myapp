@@ -28,23 +28,28 @@
     "dist/"
   ],
   "dependencies": {
+    "@modern-js/plugin-tailwindcss": "2.30.0",
     "@modern-js/runtime": "2.30.0",
+    "antd": "^5.8.3",
+    "faker": "5",
     "react": "~18.2.0",
     "react-dom": "~18.2.0"
   },
   "devDependencies": {
+    "@modern-js-app/eslint-config": "2.30.0",
     "@modern-js/app-tools": "2.30.0",
     "@modern-js/eslint-config": "2.30.0",
     "@modern-js/tsconfig": "2.30.0",
-    "@modern-js-app/eslint-config": "2.30.0",
-    "lint-staged": "~13.1.0",
-    "prettier": "~2.8.1",
-    "husky": "~8.0.1",
-    "rimraf": "~3.0.2",
-    "typescript": "~5.0.4",
+    "@types/faker": "5",
     "@types/jest": "~29.2.4",
     "@types/node": "~16.11.7",
     "@types/react": "~18.0.26",
-    "@types/react-dom": "~18.0.10"
+    "@types/react-dom": "~18.0.10",
+    "husky": "~8.0.1",
+    "lint-staged": "~13.1.0",
+    "prettier": "~2.8.1",
+    "rimraf": "~3.0.2",
+    "tailwindcss": "~3.2.4",
+    "typescript": "~5.0.4"
   }
 }
